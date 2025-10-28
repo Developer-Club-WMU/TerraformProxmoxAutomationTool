@@ -1,0 +1,18 @@
+# terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+
+# editor
+.vscode/
+.idea/
+
+# local helpers
+bin/.env
+.env
