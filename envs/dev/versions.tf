@@ -3,8 +3,8 @@ terraform {
 
   required_providers {
     proxmox = {
-      source  = "Telmate/proxmox"
-      version = ">= 3.0.1"
+      source  = "bpg/proxmox"
+      version = ">= 0.0.9"
     }
   }
 
